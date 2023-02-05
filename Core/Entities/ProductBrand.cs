@@ -1,7 +1,7 @@
-namespace Core.Entities
-{
-    public class ProductBrand
+    namespace Core.Entities
     {
-        public string Name { get; set; } = default!;
+        public class ProductBrand : BaseEntity
+        {
+            public string Name { get; set; } = default!;
+        }
     }
-}
