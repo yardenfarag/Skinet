@@ -42,6 +42,9 @@ export class ShopComponent implements OnInit {
       error: error => console.log(error)
     })
   }
+  getProduct(id: number) {
+    
+  }
   getBrands() {
     this.shopService.getBrands().subscribe({
       next: response => this.brands = [{id: 0, name:'All'}, ...response],
