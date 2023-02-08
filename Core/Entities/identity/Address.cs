@@ -2,7 +2,7 @@
 
 using System.ComponentModel.DataAnnotations;
 
-namespace Core.Entities.identity
+namespace Core.Entities.Identity
 {
     public class Address
     {
