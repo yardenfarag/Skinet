@@ -1,7 +1,11 @@
 <div *ngIf="checkoutForm" [formGroup]="checkoutForm" class="mt-4">
     <div class="d-flex justify-content-between align-items-center">
         <h4>Shipping address</h4>
-        <button class="btn btn-outline-success mb-3">
+        <button 
+            (click)="saveUserAddress()" 
+            [disabled]="!checkoutForm.get('addressForm')?.valid || !checkoutForm.get('addressForm')?.dirty"
+            class="btn btn-outline-success mb-3"
+        >
             Save as default address
         </button>
     </div>
@@ -14,4 +18,13 @@
             <text-input [label]="'Zip code'" formControlName="zipCode"></text-input>
         </div>
     </div>
+</div>
+
+<div class="d-flex justify-content-between flex-row mb-5">
+    <button class="btn btn-outline-primary" routerLink="/basket">
+        <i class="fa fa-angle-left"></i> Back to basket
+    </button>
+    <button class="btn btn-primary" cdkStepperNext>
+        Go to delivery <i class="fa fa-angle-right"></i>
+    </button>
 </div>
