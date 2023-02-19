@@ -14,5 +14,13 @@
   {
     "Id": 4,
     "Name": "Gloves"
+  },
+  {
+    "Id": 5,
+    "Name": "Goggles"
+  },
+  {
+    "Id": 6,
+    "Name": "Helmets"
   }
 ]

@@ -1,146 +1,426 @@
 [
   {
-    "Name": "Angular Speedster Board 2000",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Name": "Columbia Glacier Cruiser Board",
+    "Description": "A stable, medium-flex snowboard that excels on groomers and variable terrain with quick edge-to-edge response and a comfortable ride.",
     "Price": 200,
-    "PictureUrl": "images/products/sb-ang1.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 1
-  },
-  {
-    "Name": "Green Angular Board 3000",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-    "Price": 150,
-    "PictureUrl": "images/products/sb-ang2.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 1
-  },
-  {
-    "Name": "Core Board Speed Rush 3",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 180,
-    "PictureUrl": "images/products/sb-core1.png",
+    "PictureUrl": "images/products/board-col1.png",
     "ProductTypeId": 1,
     "ProductBrandId": 2
   },
   {
-    "Name": "Net Core Super Board",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 300,
-    "PictureUrl": "images/products/sb-core2.png",
+    "Name": "Blue Burton Powder Panther Board",
+    "Description": "A powerful, directional snowboard with a tapered shape and rocker nose for floatation and stability in deep powder.",
+    "Price": 220,
+    "PictureUrl": "images/products/board-bur1.png",
     "ProductTypeId": 1,
-    "ProductBrandId": 2
+    "ProductBrandId": 1
   },
   {
-    "Name": "React Board Super Whizzy Fast",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 250,
-    "PictureUrl": "images/products/sb-react1.png",
+    "Name": "Nordica Ice Queen Board",
+    "Description": "A women's-specific snowboard with a softer flex and camber profile for effortless turns and playful riding.",
+    "Price": 220,
+    "PictureUrl": "images/products/board-nor1.png",
     "ProductTypeId": 1,
     "ProductBrandId": 4
   },
   {
-    "Name": "Typescript Entry Board",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-    "Price": 120,
-    "PictureUrl": "images/products/sb-ts1.png",
+    "Name": "Spyder Backcountry Beast Board",
+    "Description": "A stiff, aggressive snowboard with a rockered nose and flat tail for stability and maneuverability in steep, technical terrain.",
+    "Price": 300,
+    "PictureUrl": "images/products/board-spy1.png",
     "ProductTypeId": 1,
     "ProductBrandId": 5
   },
   {
-    "Name": "Core Blue Hat",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 10,
-    "PictureUrl": "images/products/hat-core1.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 2
-  },
-  {
-    "Name": "Green React Woolen Hat",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 8,
-    "PictureUrl": "images/products/hat-react1.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Purple React Woolen Hat",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 15,
-    "PictureUrl": "images/products/hat-react2.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Blue Code Gloves",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-    "Price": 18,
-    "PictureUrl": "images/products/glove-code1.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 3
-  },
-  {
-    "Name": "Green Code Gloves",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 15,
-    "PictureUrl": "images/products/glove-code2.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 3
-  },
-  {
-    "Name": "Purple React Gloves",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
-    "Price": 16,
-    "PictureUrl": "images/products/glove-react1.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Green React Gloves",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 14,
-    "PictureUrl": "images/products/glove-react2.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Redis Red Boots",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Name": "Mammut All-Terrain Assassin Board",
+    "Description": "A cambered, medium-stiff snowboard that dominates on all types of terrain, from park to powder to steeps.",
     "Price": 250,
-    "PictureUrl": "images/products/boot-redis1.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 6
+    "PictureUrl": "images/products/board-mam2.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 3
   },
   {
-    "Name": "Core Red Boots",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 189.99,
-    "PictureUrl": "images/products/boot-core2.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 2
-  },
-  {
-    "Name": "Core Purple Boots",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 199.99,
-    "PictureUrl": "images/products/boot-core1.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 2
-  },
-  {
-    "Name": "Angular Purple Boots",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
+    "Name": "Mammut Retro Ripper Board",
+    "Description": "A classic-inspired snowboard with a wide waist and flat base for a surfy, old-school feel and maximum stability.",
     "Price": 150,
-    "PictureUrl": "images/products/boot-ang2.png",
+    "PictureUrl": "images/products/board-mam1.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Nordica Summit Seeker Hat",
+    "Description": "A warm, fleece-lined beanie with a classic look and a fold-up cuff for extra coverage.",
+    "Price": 10,
+    "PictureUrl": "images/products/hat-nor1.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Yellow Spyder Alpine Ace Hat",
+    "Description": "A lightweight, moisture-wicking hat with a snug fit and a reflective logo for added visibility.",
+    "Price": 8,
+    "PictureUrl": "images/products/hat-spy1.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "Grey Spyder Powder Puff Hat",
+    "Description": "A fluffy, faux-fur pom-pom beanie with a chunky knit and a playful, feminine style.",
+    "Price": 15,
+    "PictureUrl": "images/products/hat-spy2.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "Nordica Glacier Gnome Hat",
+    "Description": "A thick, cable-knit hat with a pom-pom and ear flaps for extra warmth in cold conditions.",
+    "Price": 12,
+    "PictureUrl": "images/products/hat-nor2.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Burton Nordic Noggin Hat",
+    "Description": "A snug, fleece-lined hat with a traditional Nordic pattern and a pom-pom for a touch of whimsy.",
+    "Price": 22,
+    "PictureUrl": "images/products/hat-bur1.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Red Mammut Snowstorm Stalker Hat",
+    "Description": "A waterproof, windproof hat with a built-in neck gaiter and a brim to keep snow and wind out of your face.",
+    "Price": 7,
+    "PictureUrl": "images/products/hat-mam3.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Mammut Hat",
+    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Price": 5,
+    "PictureUrl": "images/products/hat-mam2.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Mammut Avalanche Avenger Hat",
+    "Description": "A heavy-duty, insulated hat with ear flaps and a face mask for extreme cold and high-wind conditions.",
+    "Price": 8,
+    "PictureUrl": "images/products/hat-mam1.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Columbia Après-Ski Artist Hat",
+    "Description": "A colorful, patterned beanie with a slouchy fit and a fun, playful vibe, perfect for post-slope hangouts.",
+    "Price": 12,
+    "PictureUrl": "images/products/hat-col1.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Nordica Glacier Grip Gloves",
+    "Description": "A waterproof, insulated glove with a textured palm for superior grip in icy conditions, reinforced fingers for durability, and a soft, moisture-wicking lining for comfort.",
+    "Price": 18,
+    "PictureUrl": "images/products/gloves-nor2.png",
+    "ProductTypeId": 4,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Brown Nordica Powder Paws Gloves",
+    "Description": "A warm, breathable glove with a leather palm and a touchscreen-compatible finger, designed for the tech-savvy skier or snowboarder.",
+    "Price": 26,
+    "PictureUrl": "images/products/gloves-nor1.png",
+    "ProductTypeId": 4,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Green Columbia Freeride Fury Gloves",
+    "Description": "A flexible, articulated glove with a softshell outer layer and a plush, moisture-wicking liner for a comfortable, ergonomic fit.",
+    "Price": 23,
+    "PictureUrl": "images/products/gloves-col1.png",
+    "ProductTypeId": 4,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Striped Columbia Park Prodigy Gloves",
+    "Description": " A low-profile, slim-fitting glove with a stretchy neoprene outer layer and a grippy, silicone-coated palm for maximum dexterity and control.",
+    "Price": 25,
+    "PictureUrl": "images/products/gloves-col2.png",
+    "ProductTypeId": 4,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Red Mammut Alpine Armor Gloves",
+    "Description": "A waterproof, windproof glove with a reinforced leather palm and knuckle guard, designed for maximum protection and durability in harsh alpine conditions.",
+    "Price": 15,
+    "PictureUrl": "images/products/gloves-mam1.png",
+    "ProductTypeId": 4,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Grey Mammut Nordic Ninja Gloves",
+    "Description": "A lightweight, stretchy glove with a silicone palm and a touchscreen-compatible finger, perfect for cross-country skiing or snowshoeing.",
+    "Price": 16,
+    "PictureUrl": "images/products/gloves-mam2.png",
+    "ProductTypeId": 4,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Christmas Burton Snowstorm Sentinel Gloves",
+    "Description": "A breathable, insulated glove with a waterproof membrane, a long gauntlet cuff, and a removable wrist leash for versatile use in all kinds of snowsports.",
+    "Price": 28,
+    "PictureUrl": "images/products/gloves-bur1.png",
+    "ProductTypeId": 4,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Burton Après-Ski Aristocrat Gloves",
+    "Description": "A stylish, insulated glove with a faux-fur cuff and a soft, luxurious lining, designed for comfort and elegance during post-slope relaxation.",
+    "Price": 30,
+    "PictureUrl": "images/products/gloves-bur2.png",
+    "ProductTypeId": 4,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Black Spyder Backcountry Bomber Gloves",
+    "Description": "A rugged, heavy-duty glove with a leather and nylon outer layer, a removable liner, and a gauntlet-style cuff for maximum warmth and protection in extreme conditions.",
+    "Price": 20,
+    "PictureUrl": "images/products/gloves-spy1.png",
+    "ProductTypeId": 4,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "Yellow Spyder Freeride Phenom Boots",
+    "Description": "A stiff, aggressive ski boot with a customizable fit and a walk mode for hiking and touring.",
+    "Price": 250,
+    "PictureUrl": "images/products/boots-spy1.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "Red Spyder Park Pro Boots",
+    "Description": "A soft-flexing ski boot with a wide toe box and a freestyle-inspired design, perfect for tricks and jumps in the park.",
+    "Price": 280,
+    "PictureUrl": "images/products/boots-spy2.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "Blue Spyder All-Mountain Ace Boots",
+    "Description": "A versatile, medium-flex ski boot with a heat-moldable liner and a customizable shell for a personalized fit.",
+    "Price": 250,
+    "PictureUrl": "images/products/boots-spy3.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "Columbia Backcountry Boss Boots",
+    "Description": "A lightweight, touring-specific ski boot with a rockered sole and a walk mode, designed for backcountry exploration.",
+    "Price": 200,
+    "PictureUrl": "images/products/boots-col1.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Columbia Racing Rocket Boots",
+    "Description": "A stiff, high-performance ski boot with a snug, narrow fit and a responsive feel, designed for expert skiers.",
+    "Price": 220,
+    "PictureUrl": "images/products/boots-col2.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Green Burton Women's Wonder Boots",
+    "Description": "A women's-specific ski boot with a lower cuff and a softer flex, designed to fit the unique anatomy of the female foot and leg.",
+    "Price": 230,
+    "PictureUrl": "images/products/boots-bur1.png",
     "ProductTypeId": 3,
     "ProductBrandId": 1
   },
   {
-    "Name": "Angular Blue Boots",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 180,
-    "PictureUrl": "images/products/boot-ang1.png",
+    "Name": "White Burton Junior Juggernaut Boots",
+    "Description": "A kids' ski boot with a wide, comfortable fit and a soft flex, perfect for young skiers who are still learning.",
+    "Price": 230,
+    "PictureUrl": "images/products/boots-bur2.png",
     "ProductTypeId": 3,
     "ProductBrandId": 1
+  },
+  {
+    "Name": "Blue Nordica Budget Beast Boots",
+    "Description": "An affordable ski boot with a medium flex and a comfortable liner, perfect for entry-level skiers who are just starting out.",
+    "Price": 280,
+    "PictureUrl": "images/products/boots-nor1.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "White Nordica Big Mountain Crusher Boots",
+    "Description": "A stiff, powerful ski boot with a hike mode and a heat-moldable liner, designed for expert skiers who want to conquer challenging terrain.",
+    "Price": 280,
+    "PictureUrl": "images/products/boots-nor2.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Yellow Nordica Carving Connoisseur Boots",
+    "Description": "A narrow, high-performance ski boot with a stiff flex and a race-inspired design, perfect for carving and high-speed skiing.",
+    "Price": 250,
+    "PictureUrl": "images/products/boots-nor3.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Pink Mammut Powder Princess Boots",
+    "Description": "A women's-specific ski boot with a wide toe box and a soft flex, designed for maximum comfort and control in deep powder.",
+    "Price": 270,
+    "PictureUrl": "images/products/boots-mam1.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "White Mammut Teen Titan Boots",
+    "Description": "A ski boot designed specifically for teenagers, with a medium flex and a heat-moldable liner for a comfortable, customizable fit.",
+    "Price": 280,
+    "PictureUrl": "images/products/boots-mam2.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Nordica Snowstorm Slayer Goggles",
+    "Description": "A high-contrast ski goggle with a wide field of view and a versatile lens that adapts to changing light conditions.",
+    "Price": 50,
+    "PictureUrl": "images/products/goggles-nor1.png",
+    "ProductTypeId": 5,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Blue Nordica Freeride Freak Goggles",
+    "Description": "A sleek, frameless ski goggle with a polarized lens and a comfortable, helmet-compatible strap for all-day use.",
+    "Price": 40,
+    "PictureUrl": "images/products/goggles-nor2.png",
+    "ProductTypeId": 5,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "White Columbia Racing Radar Goggles",
+    "Description": "A low-profile, aerodynamic ski goggle with a tinted, mirrored lens and a comfortable, no-slip fit for maximum speed and precision.",
+    "Price": 50,
+    "PictureUrl": "images/products/goggles-col1.png",
+    "ProductTypeId": 5,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Black Columbia Backcountry Bomber Goggles",
+    "Description": "A durable, double-lensed ski goggle with a removable face mask and an anti-fog coating for all-weather protection.",
+    "Price": 40,
+    "PictureUrl": "images/products/goggles-col2.png",
+    "ProductTypeId": 5,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "White Mammut Women's Wonder Goggles",
+    "Description": "A women's-specific ski goggle with a smaller fit and a stylish, feminine design, perfect for female skiers.",
+    "Price": 45,
+    "PictureUrl": "images/products/goggles-mam1.png",
+    "ProductTypeId": 5,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Mammut Junior Jet Goggles",
+    "Description": "A kids' ski goggle with a comfortable, no-slip fit and a colorful, fun design that kids will love.",
+    "Price": 50,
+    "PictureUrl": "images/products/goggles-mam2.png",
+    "ProductTypeId": 5,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Spyder Tech Titan Goggles",
+    "Description": "A ski goggle with a built-in, Bluetooth-enabled headset for hands-free communication on the slopes.",
+    "Price": 45,
+    "PictureUrl": "images/products/goggles-spy1.png",
+    "ProductTypeId": 5,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "Yellow Burton Nighttime Ninja Goggles",
+    "Description": "A ski goggle with a clear lens and built-in LED lights for enhanced visibility in low-light conditions.",
+    "Price": 45,
+    "PictureUrl": "images/products/goggles-bur1.png",
+    "ProductTypeId": 5,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Pink Burton Photochromic Phantom Goggles",
+    "Description": "A ski goggle with a lens that automatically adjusts to changing light conditions, so you always have the right amount of tint for optimal vision.",
+    "Price": 40,
+    "PictureUrl": "images/products/goggles-bur2.png",
+    "ProductTypeId": 5,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Blue Nordica All-Mountain Ace Helmet",
+    "Description": "A versatile ski helmet with a comfortable, adjustable fit and a removable lining for all-season use.",
+    "Price": 35,
+    "PictureUrl": "images/products/helmet-nor1.png",
+    "ProductTypeId": 6,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Black Nordica  Backcountry Boss Helmet",
+    "Description": "A lightweight, vented ski helmet with a removable ear pad and a goggle clip for backcountry expeditions.",
+    "Price": 40,
+    "PictureUrl": "images/products/helmet-nor2.png",
+    "ProductTypeId": 6,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Yellow Spyder Racing Rocket Helmet",
+    "Description": "A streamlined, aerodynamic ski helmet with a snug, low-profile fit and a removable chin guard for maximum speed and safety.",
+    "Price": 50,
+    "PictureUrl": "images/products/helmet-spy2.png",
+    "ProductTypeId": 6,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "Green Spyder Women's Wonder Helmet",
+    "Description": "A women's-specific ski helmet with a stylish, feminine design and a removable liner for easy cleaning.",
+    "Price": 50,
+    "PictureUrl": "images/products/helmet-spy1.png",
+    "ProductTypeId": 6,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "Pink Mammut Junior Juggernaut Helmet",
+    "Description": "A kids' ski helmet with a lightweight, durable construction and a comfortable, adjustable fit for growing heads.",
+    "Price": 35,
+    "PictureUrl": "images/products/helmet-mam1.png",
+    "ProductTypeId": 6,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "White Burton Freeride Freak Helmet",
+    "Description": "A ski helmet with a unique, angular design and a removable visor for sunny days on the slopes.",
+    "Price": 40,
+    "PictureUrl": "images/products/helmet-bur1.png",
+    "ProductTypeId": 6,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Black Burton Audio Ace Helmet",
+    "Description": "A ski helmet with built-in speakers and a microphone, so you can listen to music and take calls without removing your helmet.",
+    "Price": 40,
+    "PictureUrl": "images/products/helmet-bur2.png",
+    "ProductTypeId": 6,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Columbia Budget Beast Helmet",
+    "Description": "An affordable ski helmet with a lightweight, in-mold construction and a comfortable, adjustable fit, perfect for entry-level skiers.",
+    "Price": 25,
+    "PictureUrl": "images/products/helmet-col1.png",
+    "ProductTypeId": 6,
+    "ProductBrandId": 2
   }
 ]

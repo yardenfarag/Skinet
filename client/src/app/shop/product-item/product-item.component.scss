@@ -3,6 +3,15 @@
     height: 40px;
 }
 
+img {
+    width: 310px;
+    height: 300px;
+    object-fit: contain;
+    background-color: rgb(128, 216, 250);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
 .image :hover {
     opacity: 1;
 
