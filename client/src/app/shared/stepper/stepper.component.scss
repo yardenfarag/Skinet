@@ -1,9 +1,12 @@
-button{
+button.nav-link {
+    background: #e9ecef;
+    border-radius: 0;
+    border: 0;
+    color: #333;
 
-    &.nav-link {
-        background: #e9ecef; 
-        border-radius: 0;
-        border: 0;
+    &:disabled:not(.active) {
         color: #333;
+        background: #e9ecef;
     }
+
 }
