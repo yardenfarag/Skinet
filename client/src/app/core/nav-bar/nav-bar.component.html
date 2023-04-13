@@ -3,7 +3,6 @@
     <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto text-uppercase fs-3">
         <a class="p-2" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
         <a class="p-2" routerLink="/shop" routerLinkActive="active">Shop</a>
-        <a class="p-2" routerLink="/contact" routerLinkActive="active">Contact</a>
     </nav>
     <div class="d-flex align-items-center ms-5">
         <ng-container *ngIf="(accountService.loggedinUser$ | async) === null">
