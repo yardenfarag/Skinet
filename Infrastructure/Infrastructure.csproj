@@ -1,6 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <None Include="Data\SeedData\**" CopyToOutputDirectory="PreserveNewest" />
     <ProjectReference Include="..\Core\Core.csproj" />
   </ItemGroup>
 
@@ -13,6 +14,7 @@
   </PackageReference>
   <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
   <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.26.0" />
+  <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.1" />
   <PackageReference Include="StackExchange.Redis" Version="2.6.90" />
   <PackageReference Include="Stripe.net" Version="41.6.0" />
   <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.26.0" />
